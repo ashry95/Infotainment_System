@@ -93,6 +93,7 @@ void LCD_displayString (const char * LCD_String)
 
 void LCD_displayStringRowColumn (const char * LCD_RCString, uint8 LCD_DispRow, uint8 LCD_DispColumn)
 {
+	LCD_gotoRowColumn(LCD_DispRow,LCD_DispColumn);
 	LCD_displayString(LCD_RCString);
 }
 

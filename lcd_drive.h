@@ -8,7 +8,7 @@
 
 #ifndef LCD_DRIVE_H_
 #define LCD_DRIVE_H_
-#include "std_types.h"
+#include "STD_TYPES.h"
 
 void LCD_init (void);
 void LCD_sendCommand (uint8 LCD_Command);
